@@ -12,6 +12,8 @@ const router = express.Router();
 
 router.post("/", createStudent);
 
+// router.get("/info", getInfo);
+
 router.get("/", getStudents);
 
 router.get("/:id", getStudent);

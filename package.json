@@ -20,9 +20,11 @@
         "typescript": "^5.7.3"
     },
     "dependencies": {
+        "@fingerprintjs/fingerprintjs": "^4.5.1",
         "cors": "^2.8.5",
         "dotenv": "^16.4.7",
         "express": "^4.21.2",
-        "mongoose": "^8.9.5"
+        "mongoose": "^8.9.5",
+        "ua-parser-js": "^2.0.0"
     }
 }

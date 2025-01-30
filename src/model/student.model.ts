@@ -13,7 +13,8 @@ const StudentSchema: Schema = new Schema(
         nuid: { type: String, required: true },
         name: { type: String, required: true },
         course: { type: String, required: true },
-        labTime: { type: String, required: true }
+        labTime: { type: String, required: true },
+        deviceId: { type: String, required: true },
     },
     {
         timestamps: true,
