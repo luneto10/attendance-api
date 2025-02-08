@@ -28,12 +28,5 @@ export const isMobile = async (req: express.Request) => {
     parser.setUA(req.headers["user-agent"]);
     const device = parser.getDevice();
 
-    const deviceType =
-        device.type === "mobile"
-            ? "Mobile"
-            : device.type === "tablet"
-            ? "Tablet"
-            : "Desktop";
-
-    return deviceType === "Mobile"
+    return device.type === "mobile"
 };

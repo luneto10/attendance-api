@@ -6,6 +6,7 @@ export interface IStudent extends Document {
     course: string;
     labTime: string;
     deviceId: string;
+    ip: string;
 }
 
 const StudentSchema: Schema = new Schema(
@@ -15,6 +16,7 @@ const StudentSchema: Schema = new Schema(
         course: { type: String, required: true },
         labTime: { type: String, required: true },
         deviceId: { type: String, required: true },
+        ip: { type: String, required: true },
     },
     {
         timestamps: true,
