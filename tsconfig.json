@@ -5,7 +5,9 @@
         "baseUrl": "source",
         "outDir": "dist",
         "sourceMap": true,
-        "noImplicitAny": true
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true
     },
-    "include": ["api/**/*"]
+    "include": ["./src/**/*"]
 }
